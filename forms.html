@@ -1,16 +1,60 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Forms in HTML</title>
-</head>
-<body>
-  <h2>Forms in HTML:</h2>
-  <form action="">
-    <p>Enter your first name:</p>
-    <input type="text" minlength="5" maxlength="12" required/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms in HTML</title>
+  </head>
+  <body>
+    <h2>Forms in HTML:</h2>
+    <form action="">
+      <label for="fname">First name:</label>
+      <input id = "fname" type="text" minlength="5" maxlength="12" required />
 
-  </form>
-</body>
+      <label for="mname">Middle name:</label>
+      <input id = "mname" type="text" value="vishal" />
+
+      <label for="lname">Last name:</label>
+      <input id = "lname" type="text" disabled />
+      <br />
+      <br />
+
+      <label for="age">Age:</label>
+      <input id = "age" type="number" />
+      <br />
+      <br />
+      <label for="email">Email:</label>
+      <input id = "email" type="email" />
+
+      <br />
+      <br />
+      <label for="joiningdate">Date of Joining:</label>
+      <input id = "joiningdate" type="date" />
+
+      <br />
+      <br />
+
+      <label for="password">Password:</label>
+      <input id = "password" type="password" />
+
+      <br />
+      <br />
+
+      <p>Enter your shirt size</p>
+      <input type="radio" name="shirtsize" id="small" checked />
+      <label for="small">Small</label>
+      <input type="radio" name="shirtsize" id="large" />
+      <label for="large">Large</label>
+      <input type="radio" name="shirtsize" id="extralarge" />
+      <label for="extralarge">Extra Large</label>
+      <input type="radio" name="shirtsize" id="medium" />
+      <label for="medium">Medium</label>
+
+      <br />
+      <br />
+
+      <label for = "color">Please select the color of your shirt:</label>
+      <input id="color" type="color" />
+    </form>
+  </body>
 </html>
