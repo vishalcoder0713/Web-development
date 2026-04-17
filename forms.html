@@ -9,52 +9,109 @@
     <h2>Forms in HTML:</h2>
     <form action="">
       <label for="fname">First name:</label>
-      <input id = "fname" type="text" minlength="5" maxlength="12" required />
+      <input
+        id="fname"
+        type="text"
+        minlength="5"
+        maxlength="12"
+        required
+        placeholder="Enter first name"
+        value=""
+        name="fname"
+      />
 
       <label for="mname">Middle name:</label>
-      <input id = "mname" type="text" value="vishal" />
+      <input id="mname" type="text" value="vishal" />
 
       <label for="lname">Last name:</label>
-      <input id = "lname" type="text" disabled />
+      <input id="lname" type="text" disabled />
       <br />
       <br />
 
       <label for="age">Age:</label>
-      <input id = "age" type="number" />
+      <input id="age" type="number" />
       <br />
       <br />
       <label for="email">Email:</label>
-      <input id = "email" type="email" />
+      <input id="email" type="email" />
 
       <br />
       <br />
       <label for="joiningdate">Date of Joining:</label>
-      <input id = "joiningdate" type="date" />
+      <input id="joiningdate" type="date" />
 
       <br />
       <br />
 
       <label for="password">Password:</label>
-      <input id = "password" type="password" />
+      <input id="password" type="password" />
 
       <br />
       <br />
 
       <p>Enter your shirt size</p>
-      <input type="radio" name="shirtsize" id="small" checked />
+      <input
+        type="radio"
+        name="shirtsize"
+        id="small"
+        checked
+        name=""
+        value="small"
+      />
       <label for="small">Small</label>
-      <input type="radio" name="shirtsize" id="large" />
+      <input type="radio" name="shirtsize" id="large" value="large" />
       <label for="large">Large</label>
-      <input type="radio" name="shirtsize" id="extralarge" />
+      <input type="radio" name="shirtsize" id="extralarge" value="extralarge" />
       <label for="extralarge">Extra Large</label>
-      <input type="radio" name="shirtsize" id="medium" />
+      <input type="radio" name="shirtsize" id="medium" value="medium" />
       <label for="medium">Medium</label>
 
       <br />
       <br />
 
-      <label for = "color">Please select the color of your shirt:</label>
+      <p>Select the known languages:</p>
+      <input type="checkbox" name="language" id="english" value="english" />
+      <label for="english">English</label>
+      <input type="checkbox" name="language" id="telugu" value="telugu" />
+      <label for="telugu">Telugu</label>
+      <input type="checkbox" name="language" id="hindi" value="hindi" />
+      <label for="hindi">Hindi</label>
+      <input type="checkbox" name="language" id="marathi" value="marathi" />
+      <label for="marathi">Marathi</label>
+
+      <br />
+      <br />
+
+      <label for="color">Please select the color of your shirt:</label>
       <input id="color" type="color" />
+
+      <br />
+      <br />
+
+      <label for="paymentOption">Please select a paytment menthod</label>
+      <select id="paymentOption">
+        <option></option>
+        <option value="gpay">gpay</option>
+        <option value="phonepay">phonepay</option>
+        <option value="paytm">paytm</option>
+      </select>
+
+      <br />
+      <br />
+
+      <label for="feedback">Please provide your valuable feedback:</label>
+      <!-- <input type="text" id="feedback" /> -->
+      <textarea
+        id="feedback"
+        rows="5"
+        cols="25"
+        placeholder="please enter your comments"
+      ></textarea>
+      <br />
+      <br />
+
+      <input type="reset" />
+      <input type="submit" />
     </form>
   </body>
 </html>
