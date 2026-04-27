@@ -1,0 +1,16 @@
+body{
+  font-size: 26px;
+  font-family : cursive;
+  text-align: center;
+  color: lightgreen;
+  background-color: black;
+
+}
+article{
+  background-color: lightgreen;
+  color: white;
+  margin: 45px;
+  padding: 45px;
+  font-size: 16px;
+  border-radius: 5px;
+}
