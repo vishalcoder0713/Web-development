@@ -1,0 +1,16 @@
+main {
+  border: 2px solid black;
+  /* border-radius: 5px; */
+  width: 50%;
+  /* %, vw (viewport width), vh (viewport height), px (pixels), em, rem */
+  /* width:  50vw; */
+}
+section {
+  border: 2px dotted greenyellow;
+  height: 15vh;
+  width: 50%;
+}
+
+h2{
+  font-size: 40px;
+}
