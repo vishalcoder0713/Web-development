@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  border: 15px solid lightgreen;
+  padding: 35px 40px 45px 50px;
+  margin: 25px;
+}
