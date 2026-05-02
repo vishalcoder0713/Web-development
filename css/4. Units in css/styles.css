@@ -6,11 +6,12 @@ main {
   /* width:  50vw; */
 }
 section {
-  border: 2px dotted greenyellow;
-  height: 15vh;
-  width: 50%;
+  border: 4px dotted green;
+  /* height: 15vh; */
+  width: 70vw;
 }
 
 h2{
-  font-size: 40px;
+  /* font-size: 30px; */
+  font-size: 2em;
 }
