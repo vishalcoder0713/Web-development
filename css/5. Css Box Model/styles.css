@@ -1,10 +1,12 @@
-body {
+* {
   margin: 0;
   padding: 0;
 }
 
 div {
-  border: 15px solid lightgreen;
-  padding: 35px 40px 45px 50px;
-  margin: 25px;
+  border: 12px solid lightgreen;
+  padding: 10px 40px;
+  margin: 25px 40px 60px 35px;
+  width: 250px;
+  height: 250px;
 }
